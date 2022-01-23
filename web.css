@@ -1,0 +1,63 @@
+                        html {
+                            scroll-behavior: smooth;
+                        }
+                        
+                        body,
+                        a,
+                        iframe,
+                        div {
+                            background-color: black;
+                            color: red;
+                            font-family: monospace;
+                            margin-top: 0;
+                            margin-left: 30px;
+                            font-size: 15px;
+                            min-width: 1000px;
+                            align-content: center;
+                            text-decoration: none;
+                        }
+                        
+                        nav {
+                            width: 100%;
+                            margin-left: 0px;
+                            margin-top: 0px;
+                            display: inline-block;
+                        }
+                        
+                        a {
+                            padding: 10px;
+                        }
+                        
+                        a:hover {
+                            text-shadow: 0px 0px 10px#ff0000, 0px 0px 10px tomato;
+                            ;
+                        }
+                        
+                        img {
+                            max-width: 900px;
+                            display: block;
+                            margin: auto;
+                        }
+                        
+                        .b-img {
+                            max-height: 450px;
+                        }
+                        
+                        header p {
+                            font-size: 15px;
+                            margin-top: 0px;
+                        }
+                        
+                        span {
+                            font-weight: bolder;
+                            font-size: large;
+                        }
+                        
+                        div:hover {
+                            background-image: url('assests/download (2).jpeg');
+                            background-size: cover;
+                            min-height: 1000px;
+                            min-width: 900px;
+                            display: block;
+                            margin: 0px;
+                        }
